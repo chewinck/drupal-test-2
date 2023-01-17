@@ -1,0 +1,6 @@
+<?php
+use Drupal\Core\Render\Markup;
+use Drupal\Core\Routing\TrustedRedirectResponse;
+/**
+ * Implements hook_theme().
+ */

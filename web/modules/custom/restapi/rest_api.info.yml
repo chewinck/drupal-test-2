@@ -1,0 +1,7 @@
+name: REST API
+description: Define's a custom REST Resource
+package: Custom
+type: module
+core_version_requirement: 10.x
+version: 1.0
+core: 8.x
