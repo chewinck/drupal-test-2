@@ -264,6 +264,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
+$config['system.logging']['error_level'] = 'verbose'; 
 $settings['hash_salt'] = 'K3lDgbSpcjSnodL2qEzeO1QDI7sX-vYZ7weFupnDiedGkZ77u6e4HeJ2aHrkG2s37qOkLup6LA';
 
 /**
