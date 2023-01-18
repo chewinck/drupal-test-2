@@ -20,6 +20,8 @@ Supported Drupal versions: 10 / 9 / 7
 
 Para iniciar la instalación, se debe clonar el presente repositorio. Una vez clonado el repositorio se debe crear el archivo .env, en la raiz del dorectorio, con la siquiente información:
 
+## .env
+
 PROJECT_NAME=test_project
 
 PROJECT_BASE_URL=drupal.docker.localhost
@@ -57,6 +59,8 @@ SOLR_TAG=8-4.18.1
 SOLR_CONFIG_SET="search_api_solr_4.1.6"
 
 ZOOKEEPER_TAG=3.8
+
+## Fin de .env
 
 Se debe tener instalado docker-compose en la maquina que se este trabajando.
 Una vez establecida la anterior información y contar con Docker-compose es momento de iniciar los contenedores con el comando
