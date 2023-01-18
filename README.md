@@ -18,7 +18,7 @@ Supported Drupal versions: 10 / 9 / 7
 
 ## Documentation
 
-Una vez clonado el presents repositorio se debe crear el archivo .env, en la raiz del dorectorio, con la siquiente información:
+Una vez clonado el presente repositorio se debe crear el archivo .env, en la raiz del dorectorio, con la siquiente información:
 
 PROJECT_NAME=test_project
 PROJECT_BASE_URL=drupal.docker.localhost
