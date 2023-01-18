@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\res_tapi\Plugin\rest\resource;
+namespace Drupal\rest_api\Plugin\rest\resource;
 
 use Drupal\rest\Plugin\ResourceBase;
 use Drupal\rest\ResourceResponse;
@@ -30,7 +30,8 @@ class GetArticles extends ResourceBase{
   {
 
     try {
-      return $query =  \Drupal::entityTypeManager()->getStorage('node')->loadByProperties(['type' => 'article']);
+
+      $query =  \Drupal::entityTypeManager()->getStorage('node')->loadByProperties(['type' => 'article']);
       return $response = new ResourceResponse($query);
     } catch (EntityStorageException $e) {
       \Drupal::logger('custom-rest')->error($e->getMessage());

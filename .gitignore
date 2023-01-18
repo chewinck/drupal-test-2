@@ -1,0 +1,13 @@
+.idea/
+mutagen.yml.lock
+.vscode
+
+/vendor/
+
+sites/*/settings*.php
+sites/*/services*.yml
+
+sites/*/files
+sites/*/private
+
+.env
