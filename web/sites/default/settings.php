@@ -732,7 +732,7 @@ $settings['file_scan_ignore_directories'] = [
  */
 $settings['entity_update_batch_size'] = 50;
 
-/**
+/**comp
  * Entity update backup.
  *
  * This is used to inform the entity storage handler that the backup tables as
@@ -815,11 +815,11 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'test_site',
+  'database' => 'drupal',
   'username' => 'root',
-  'password' => '',
+  'password' => 'password',
   'prefix' => '',
-  'host' => 'localhost',
+  'host' => 'mariadb',
   'port' => '3306',
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
   'driver' => 'mysql',
