@@ -20,8 +20,8 @@ services:
       #context: . # ruta de referencia ./
       #dockerfile: Dockerfile # nombre del archivo de configuracion de la imagen 
     container_name: "${PROJECT_NAME}_php"
-    ports: 
-      - 9998:80
+    ports:
+    - 9998:80
     volumes:
     - ./:/var/www/html:cached
 
