@@ -18,18 +18,26 @@ Supported Drupal versions: 10 / 9 / 7
 
 ## Documentation
 
-Una vez clonado el presente repositorio se debe crear el archivo .env, en la raiz del dorectorio, con la siquiente información:
+Para iniciar la instalación, se debe clonar el presente repositorio. Una vez clonado el repositorio se debe crear el archivo .env, en la raiz del dorectorio, con la siquiente información:
 
 PROJECT_NAME=test_project
+
 PROJECT_BASE_URL=drupal.docker.localhost
+
 PROJECT_PORT=8000
 
 DB_NAME=drupal
+
 DB_USER=drupal
+
 DB_PASSWORD=drupal
+
 DB_ROOT_PASSWORD=password
+
 DB_HOST=mariadb
+
 DB_PORT=3306
+
 DB_DRIVER=mysql
 
 ### --- MARIADB ----
