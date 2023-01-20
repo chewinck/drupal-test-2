@@ -69,7 +69,7 @@ Despues de finalizado el anterior comando, se puede validar si se inciaron corre
 
 docker ps
 
-luego se debe importar el archivo de bases de datos mediante el phpmyadmin en la siguiente  url http://pma.drupal.docker.localhost:8000/ . Para iniciar nuestro sitio web de drupal, tecleamos en nuestro navegador:
+luego se debe importar el archivo de bases de datos mariadb.sql que se encuentra en este repo y mediante el phpmyadmin en la siguiente  url http://pma.drupal.docker.localhost:8000/ se puede importar. Para iniciar nuestro sitio web de drupal, tecleamos en nuestro navegador:
 
 drupal.docker.localhost:8000
 
