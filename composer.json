@@ -19,13 +19,13 @@
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-project-message": "^10.0",
         "drupal/core-recommended": "^10.0",
-        "drupal/restui": "^1.21",
-        "drupal/search_api_solr": "^4.2"
+        "drupal/devel": "^5.1",
+        "drupal/restui": "^1.21"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
@@ -93,8 +93,5 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
-    },
-    "require-dev": {
-        "drupal/devel": "^5.1"
     }
 }

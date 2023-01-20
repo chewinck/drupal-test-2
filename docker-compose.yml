@@ -12,7 +12,7 @@ services:
       MYSQL_PASSWORD: $DB_PASSWORD
     volumes:
     #   - ./mariadb-init:/docker-entrypoint-initdb.d # Place init .sql file(s) here.
-    - /db-data:/var/lib/mysql # Use bind mount
+    - ./db-data:/var/lib/mysql # Use bind mount
 
   php:
     image: wodby/drupal-php:$PHP_TAG
@@ -20,8 +20,6 @@ services:
       #context: . # ruta de referencia ./
       #dockerfile: Dockerfile # nombre del archivo de configuracion de la imagen 
     container_name: "${PROJECT_NAME}_php"
-    ports:
-    - 9998:80
     volumes:
     - ./:/var/www/html:cached
 

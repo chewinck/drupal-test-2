@@ -11,3 +11,18 @@ sites/*/files
 sites/*/private
 
 .env
+
+
+
+db-data/
+db-data/*/ib*
+/db-data/ibdata1
+/db-data/ib_logfile0
+/db-data/9e471517f185.pid
+/db-data/aria_log_control
+/db-data/aria_log.00000001
+/db-data/ddl_recovery.log
+/db-data/ib_buffer_pool
+/db-data/ibtmp1
+/db-data/multi-master.info
+/db-data/mysql_upgrade_info

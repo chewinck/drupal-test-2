@@ -264,8 +264,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$config['system.logging']['error_level'] = 'verbose'; 
-$settings['hash_salt'] = 'K3lDgbSpcjSnodL2qEzeO1QDI7sX-vYZ7weFupnDiedGkZ77u6e4HeJ2aHrkG2s37qOkLup6LA';
+$settings['hash_salt'] = 'no8_3q660O9Es5x-MqrsBGjU_kOu2huJOd35DrSW1JxWj8Tt-IECryI4TMmIYNqsbYjlbfR3kQ';
 
 /**
  * Deployment identifier.
@@ -732,7 +731,7 @@ $settings['file_scan_ignore_directories'] = [
  */
 $settings['entity_update_batch_size'] = 50;
 
-/**comp
+/**
  * Entity update backup.
  *
  * This is used to inform the entity storage handler that the backup tables as
@@ -825,4 +824,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_guFJU0B9qvbYHC34brBMKuLjGhHPA2k02Z9lxc3Ss6I1cBpExPCjRUpOS-6TTo6iZGvWsPbIDQ/sync';
+$settings['config_sync_directory'] = 'sites/default/files/config_CLgVUHR06zRs1RQ-DCjaRuGUHWyqyJJMqs8fRz8Zy284Mg-6yTWdqqTincQT-N7pIsGKYKzvng/sync';

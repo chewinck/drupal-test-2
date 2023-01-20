@@ -283,7 +283,7 @@ function backtrace_error_handler($error_level, $message, $filename = NULL, $line
  */
 function devel_page_attachments_alter(&$page) {
   if (\Drupal::currentUser()->hasPermission('access devel information') && \Drupal::config('devel.settings')->get('page_alter')) {
-    /*dpm($page, 'page');*/
+    dpm($page, 'page');
   }
 }
 

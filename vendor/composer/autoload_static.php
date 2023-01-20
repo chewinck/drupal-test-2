@@ -4,30 +4,26 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitd405f02ed1e0ed999dd1e97d9b0c679f
+class ComposerStaticInit71ffd2f522631e1da977fb8e4cabc006
 {
     public static $files = array (
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
-        'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
+        '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
+        'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         '2f69d3914119f042cca9e44442d5ce95' => __DIR__ . '/../..' . '/web/core/includes/bootstrap.inc',
-        '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
-        'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'Z' => 
-        array (
-            'ZipStream\\' => 10,
-        ),
         'T' => 
         array (
             'Twig\\' => 5,
@@ -55,13 +51,11 @@ class ComposerStaticInitd405f02ed1e0ed999dd1e97d9b0c679f
             'Symfony\\Component\\Mime\\' => 23,
             'Symfony\\Component\\HttpKernel\\' => 29,
             'Symfony\\Component\\HttpFoundation\\' => 33,
-            'Symfony\\Component\\Finder\\' => 25,
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\ErrorHandler\\' => 31,
             'Symfony\\Component\\DependencyInjection\\' => 38,
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
-            'Solarium\\' => 9,
         ),
         'P' => 
         array (
@@ -74,12 +68,7 @@ class ComposerStaticInitd405f02ed1e0ed999dd1e97d9b0c679f
         ),
         'M' => 
         array (
-            'MyCLabs\\Enum\\' => 13,
             'Masterminds\\' => 12,
-        ),
-        'L' => 
-        array (
-            'Laminas\\Stdlib\\' => 15,
         ),
         'G' => 
         array (
@@ -101,12 +90,9 @@ class ComposerStaticInitd405f02ed1e0ed999dd1e97d9b0c679f
             'Doctrine\\Common\\Lexer\\' => 22,
             'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
-            'Dflydev\\DotAccessData\\' => 22,
         ),
         'C' => 
         array (
-            'Consolidation\\OutputFormatters\\' => 31,
-            'Consolidation\\AnnotatedCommand\\' => 31,
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
         ),
@@ -117,10 +103,6 @@ class ComposerStaticInitd405f02ed1e0ed999dd1e97d9b0c679f
     );
 
     public static $prefixDirsPsr4 = array (
-        'ZipStream\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/maennchen/zipstream-php/src',
-        ),
         'Twig\\' => 
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
@@ -209,10 +191,6 @@ class ComposerStaticInitd405f02ed1e0ed999dd1e97d9b0c679f
         array (
             0 => __DIR__ . '/..' . '/symfony/http-foundation',
         ),
-        'Symfony\\Component\\Finder\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/finder',
-        ),
         'Symfony\\Component\\EventDispatcher\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
@@ -232,10 +210,6 @@ class ComposerStaticInitd405f02ed1e0ed999dd1e97d9b0c679f
         'Symfony\\Bridge\\PsrHttpMessage\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/psr-http-message-bridge',
-        ),
-        'Solarium\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/solarium/solarium/src',
         ),
         'Psr\\Log\\' => 
         array (
@@ -262,17 +236,9 @@ class ComposerStaticInitd405f02ed1e0ed999dd1e97d9b0c679f
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
         ),
-        'MyCLabs\\Enum\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/myclabs/php-enum/src',
-        ),
         'Masterminds\\' => 
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
-        ),
-        'Laminas\\Stdlib\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/laminas/laminas-stdlib/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -322,18 +288,6 @@ class ComposerStaticInitd405f02ed1e0ed999dd1e97d9b0c679f
         array (
             0 => __DIR__ . '/..' . '/doctrine/common/src',
             1 => __DIR__ . '/..' . '/doctrine/event-manager/src',
-        ),
-        'Dflydev\\DotAccessData\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/dflydev/dot-access-data/src',
-        ),
-        'Consolidation\\OutputFormatters\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/consolidation/output-formatters/src',
-        ),
-        'Consolidation\\AnnotatedCommand\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/consolidation/annotated-command/src',
         ),
         'Composer\\Semver\\' => 
         array (
@@ -395,17 +349,16 @@ class ComposerStaticInitd405f02ed1e0ed999dd1e97d9b0c679f
         'Drupal\\Core\\Site\\Settings' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Site/Settings.php',
         'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
         'PEAR_Exception' => __DIR__ . '/..' . '/pear/pear_exception/PEAR/Exception.php',
-        'Stringable' => __DIR__ . '/..' . '/myclabs/php-enum/stubs/Stringable.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitd405f02ed1e0ed999dd1e97d9b0c679f::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitd405f02ed1e0ed999dd1e97d9b0c679f::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitd405f02ed1e0ed999dd1e97d9b0c679f::$prefixesPsr0;
-            $loader->fallbackDirsPsr0 = ComposerStaticInitd405f02ed1e0ed999dd1e97d9b0c679f::$fallbackDirsPsr0;
-            $loader->classMap = ComposerStaticInitd405f02ed1e0ed999dd1e97d9b0c679f::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit71ffd2f522631e1da977fb8e4cabc006::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit71ffd2f522631e1da977fb8e4cabc006::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit71ffd2f522631e1da977fb8e4cabc006::$prefixesPsr0;
+            $loader->fallbackDirsPsr0 = ComposerStaticInit71ffd2f522631e1da977fb8e4cabc006::$fallbackDirsPsr0;
+            $loader->classMap = ComposerStaticInit71ffd2f522631e1da977fb8e4cabc006::$classMap;
 
         }, null, ClassLoader::class);
     }

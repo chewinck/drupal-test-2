@@ -14,7 +14,7 @@ use Drupal\Core\Entity\EntityStorageException;
  *   id = "articles",
  *   label = @Translation("Articles Listing"),
  *   uri_paths = {
- *     "canonical" =  "/api/articles"
+ *     "canonical" =  "/api/v1/articles"
  *   }
  * )
  */
@@ -30,9 +30,8 @@ class GetArticles extends ResourceBase{
   {
 
     try {
-
       $query =  \Drupal::entityTypeManager()->getStorage('node')->loadByProperties(['type' => 'article']);
-      return $response = new ResourceResponse($query);
+      return  new ResourceResponse($query);
     } catch (EntityStorageException $e) {
       \Drupal::logger('custom-rest')->error($e->getMessage());
     }
